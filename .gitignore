@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local ArduPilot checkout/build and generated artifacts
+ardupilot/
+build/
+.generated/
+generated_mavlink/
+
+# Live simulation captures and large local datasets
+*.tlog
+*.tlog.raw
+*.bin
+terrain/*.DAT
+sitl_logs/
+mission_*.csv
+results_*.csv
+results.csv
+resource_*.csv
+
+# Experiment-specific local configuration and outputs
+fanet_links.json
+hw_profile.json
+benchmark_report.txt
+smoke_results/
+smoke_figures/
